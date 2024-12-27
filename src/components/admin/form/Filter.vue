@@ -1,5 +1,5 @@
 <script setup>
-import { useAdminStore } from '@/stores/admin.js'
+import { useAdminStore } from '@/stores/StoreAdmin.js'
 import {onMounted, ref} from "vue";
 import {Carousel, Navigation, Slide} from "vue3-carousel";
 const store = useAdminStore()

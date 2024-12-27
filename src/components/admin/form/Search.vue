@@ -1,5 +1,5 @@
 <script setup>
-import { useAdminStore } from '@/stores/admin.js'
+import { useAdminStore } from '@/stores/StoreAdmin.js'
 import {ref} from "vue";
 const store = useAdminStore()
 

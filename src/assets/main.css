@@ -31,3 +31,9 @@ header a.router-link-exact-active:hover {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+@media (max-width: 860px) {
+  .tableHid{
+    display: none;
+  }
+}
